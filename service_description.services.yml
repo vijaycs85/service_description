@@ -1,0 +1,9 @@
+services:
+  service_description.loader:
+    class: Drupal\service_description\DescriptionLoader
+    arguments: ['@service_description.loader_json', '@service_description.file_locator']
+  service_description.file_locator:
+    class: Drupal\service_description\FileLocator
+  service_description.loader_json:
+    class: Guzzle\Service\Loader\JsonLoader
+    arguments: ['@service_description.file_locator']
