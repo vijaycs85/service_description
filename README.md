@@ -6,7 +6,7 @@ Integrates [Guzzle service](https://github.com/guzzle/guzzle-services) & [descri
 
 ## Usage
 --------
-Create a service description JSON file for your service provider. place it as `module_name/service_description/description.json` file. See [httpbin](https://www.drupal.org/project/httpbin) module for sample implementation.
+Create a service description JSON file for your service provider. place it as `module_name/service_description/description.json`. See [httpbin](https://www.drupal.org/project/httpbin) module for sample implementation.
 
 
 ## Reference:
