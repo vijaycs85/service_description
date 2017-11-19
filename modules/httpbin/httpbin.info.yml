@@ -1,6 +1,0 @@
-name: HTTP
-type: module
-description: 'Call services in httpbin.org using Guzzle service description.'
-core: 8.x
-dependecies:
-  - service_description
